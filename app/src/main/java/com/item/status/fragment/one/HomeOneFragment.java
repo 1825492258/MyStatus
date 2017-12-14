@@ -180,9 +180,9 @@ public class HomeOneFragment extends BaseLazyFragment {
         for (int i = 1 ; i <= 20 ; i++){
             mItemList.add("item " + i);
         }
-        mImages.add("http://desk.zol.com.cn/showpic/1024x768_63850_14.html");
-        mImages.add("http://desk.zol.com.cn/showpic/1024x768_63850_14.html");
-        mImages.add("http://desk.zol.com.cn/showpic/1024x768_63850_14.html");
+        mImages.add("http://image.tianjimedia.com/uploadImages/2012/067/X6BEO07U962E.jpg");
+        mImages.add("http://image.tianjimedia.com/uploadImages/2012/067/F9X84V2ST716.jpg");
+        mImages.add("http://image.tianjimedia.com/uploadImages/2012/067/N80N0GUA36N0.jpg");
         mImages.add("http://desk.zol.com.cn/showpic/1024x768_63850_14.html");
     }
 
