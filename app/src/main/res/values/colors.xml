@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bar">#3385ff</color>
+    <color name="white">#ffffff</color>
+    <color name="setting_back">#33000000</color>
+
+    <color name="shape1">#5d8df7</color>
+    <color name="shape2">#5EB9F8</color>
+    <color name="tans">#00000000</color>
+    <color name="shape3">#5CC2F8</color>
+    <color name="tab_bottom_normal">#999999</color>
+    <color name="tab_bottom_selected">#46c01b</color>
+    <color name="colorBarText">#F0F5E5</color>
+
+</resources>
