@@ -7,3 +7,4 @@ StatusBar使用
 
 ## Banner的简单使用
 ### https://github.com/youth5201314/banner
+![展示个图片](img/text.png)
