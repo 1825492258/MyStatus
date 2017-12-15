@@ -14,6 +14,7 @@ import com.item.status.banner.BannerActivity;
 import com.item.status.fragment.FragmentOneActivity;
 import com.item.status.fragment.FragmentTwoActivity;
 import com.item.status.fragment.three.FragmentThreeActivity;
+import com.item.status.stick.StickActivity;
 import com.item.status.util.StatusBarUtil;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_five).setOnClickListener(this);
         findViewById(R.id.btn_six).setOnClickListener(this);
         findViewById(R.id.btn_banner).setOnClickListener(this);
+        findViewById(R.id.btn_seven).setOnClickListener(this);
     }
 
     @Override
@@ -59,11 +61,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_five:
                 startActivity(new Intent(this, FragmentTwoActivity.class));
                 break;
-            case R.id.btn_six:
+            case R.id.btn_six: //
                 startActivity(new Intent(this, FragmentThreeActivity.class));
                 break;
-            case R.id.btn_banner:
+            case R.id.btn_banner: // Banner
                 startActivity(new Intent(this, BannerActivity.class));
+                break;
+            case R.id.btn_seven: // StickHeader
+                startActivity(new Intent(this, StickActivity.class));
                 break;
         }
     }
