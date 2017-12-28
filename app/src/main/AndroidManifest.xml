@@ -28,7 +28,8 @@
         <activity android:name=".banner.BannerActivity" />
         <activity android:name=".stick.StickActivity" />
         <activity android:name=".TestActivity" />
-        <activity android:name=".expand.ExpandActivity"></activity>
+        <activity android:name=".expand.ExpandActivity" />
+        <activity android:name=".picker.PickerActivity"></activity>
     </application>
 
 </manifest>

@@ -15,6 +15,7 @@ import com.item.status.expand.ExpandActivity;
 import com.item.status.fragment.FragmentOneActivity;
 import com.item.status.fragment.FragmentTwoActivity;
 import com.item.status.fragment.three.FragmentThreeActivity;
+import com.item.status.picker.PickerActivity;
 import com.item.status.stick.StickActivity;
 import com.item.status.util.StatusBarUtil;
 
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_banner).setOnClickListener(this);
         findViewById(R.id.btn_seven).setOnClickListener(this);
         findViewById(R.id.btn_eight).setOnClickListener(this);
+        findViewById(R.id.btn_nine).setOnClickListener(this);
     }
 
     @Override
@@ -74,6 +76,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_eight: // Expand
                 startActivity(new Intent(this, ExpandActivity.class));
+                break;
+            case R.id.btn_nine: // PickerView
+                startActivity(new Intent(this, PickerActivity.class));
                 break;
         }
     }
