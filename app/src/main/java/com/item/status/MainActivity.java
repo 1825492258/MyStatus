@@ -11,6 +11,7 @@ import com.item.status.activity.PicActivity;
 import com.item.status.activity.ShapeActivity;
 import com.item.status.activity.WhiteStatusActivity;
 import com.item.status.banner.BannerActivity;
+import com.item.status.expand.ExpandActivity;
 import com.item.status.fragment.FragmentOneActivity;
 import com.item.status.fragment.FragmentTwoActivity;
 import com.item.status.fragment.three.FragmentThreeActivity;
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_six).setOnClickListener(this);
         findViewById(R.id.btn_banner).setOnClickListener(this);
         findViewById(R.id.btn_seven).setOnClickListener(this);
+        findViewById(R.id.btn_eight).setOnClickListener(this);
     }
 
     @Override
@@ -68,7 +70,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(new Intent(this, BannerActivity.class));
                 break;
             case R.id.btn_seven: // StickHeader
-                startActivity(new Intent(this, StickActivity.class));
+                startActivity(new Intent(this, TestActivity.class));
+                break;
+            case R.id.btn_eight: // Expand
+                startActivity(new Intent(this, ExpandActivity.class));
                 break;
         }
     }

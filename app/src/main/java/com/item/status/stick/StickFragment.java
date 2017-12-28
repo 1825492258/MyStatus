@@ -75,7 +75,7 @@ public class StickFragment extends Fragment{
         addHeaderOne();
         View header1 = LayoutInflater.from(getContext()).inflate(R.layout.view_header_banner,(ViewGroup)recyclerView.getParent(),false);
         oneAdapter.addHeaderView(header1);
-        final View header = LayoutInflater.from(getContext()).inflate(R.layout.view_header_three,(ViewGroup)recyclerView.getParent(),false);
+         View header = LayoutInflater.from(getContext()).inflate(R.layout.view_header_three,(ViewGroup)recyclerView.getParent(),false);
         initStickView(header);
         oneAdapter.addHeaderView(header);
         header.setBackgroundColor(Color.BLUE);
