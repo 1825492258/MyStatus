@@ -301,7 +301,7 @@ public class PickerActivity extends AppCompatActivity implements View.OnClickLis
                 .setTitleSize(15) // 设置标题大小
                 .setSubCalSize(12) // 设置 确定取消 的大小
                 .setContentTextSize(15) // 设置滚轮文字大小
-                .setLineSpacingMultiplier(3f) // 设置间距倍数
+                .setLineSpacingMultiplier(2.8f) // 设置间距倍数
                 .setSelectOptions(0, 0, 0) // 设置默认选项
                 .setOutSideCancelable(true) // 点击外部dismiss default true
                 .build();
